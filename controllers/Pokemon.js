@@ -1,5 +1,5 @@
 const router = require('express').Router()
-const Pokemon = require('../models/pokemon')
+const Pokemon = require('../models/Pokemon')
 
 router.get('/', async (req, res) => {
     try {
